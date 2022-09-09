@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ATG-world-ID9/static/css/main.d34c722c.css",
-    "main.js": "/ATG-world-ID9/static/js/main.bfa6234e.js",
+    "main.css": "/ATG-world-ID9/static/css/main.19f6af32.css",
+    "main.js": "/ATG-world-ID9/static/js/main.7399caa2.js",
     "static/media/Cover.svg": "/ATG-world-ID9/static/media/Cover.211c8e7510aac69b74ee7cf45da077ce.svg",
     "static/media/Profile.svg": "/ATG-world-ID9/static/media/Profile.06ffa8459a20f6a4db825d4d51b0d4ea.svg",
     "static/media/logo.svg": "/ATG-world-ID9/static/media/logo.1d0ccf64e531db4708e0c9c5687ba089.svg",
     "index.html": "/ATG-world-ID9/index.html",
     "static/media/search.svg": "/ATG-world-ID9/static/media/search.62909ae13662e41154eda004b0f3d2a5.svg",
-    "main.d34c722c.css.map": "/ATG-world-ID9/static/css/main.d34c722c.css.map",
-    "main.bfa6234e.js.map": "/ATG-world-ID9/static/js/main.bfa6234e.js.map"
+    "main.19f6af32.css.map": "/ATG-world-ID9/static/css/main.19f6af32.css.map",
+    "main.7399caa2.js.map": "/ATG-world-ID9/static/js/main.7399caa2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d34c722c.css",
-    "static/js/main.bfa6234e.js"
+    "static/css/main.19f6af32.css",
+    "static/js/main.7399caa2.js"
   ]
 }
