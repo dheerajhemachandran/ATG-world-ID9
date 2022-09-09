@@ -58,7 +58,7 @@ const Live = () => {
           <Deals deal={deal} closed={false}/>)}
       </div>
       <div className="d-flex justify-content-center">
-        <div className="btn btn-outline-primary">View more</div>
+        <div className="btn btn-view">View more</div>
       </div>
     </div>
   )
