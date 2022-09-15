@@ -16,6 +16,7 @@
     height: 40px;
     width: 272px;
     font-size: 14px;
+    font-weight: 500;
     padding: 10px 40px;
     border-radius: 20px;
     outline: none;
@@ -35,6 +36,7 @@
     background-color: #FFFFFF;
     color: #6D747A;
     outline: none;
+    font-weight: 500;
     padding: 7px 24px;
     font-size: 14px;
 }

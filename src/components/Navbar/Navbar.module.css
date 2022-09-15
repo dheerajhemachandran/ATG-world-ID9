@@ -16,10 +16,26 @@
     margin-left: 8 px;
     background-color: #39B54A;
     color: #E9EBF4;
+    position: relative;
+    left: -128px;
     padding: 16px 24px;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
     
+    
 }
+
+.animate{
+    position: relative;
+    padding: 16px 24px;  background-color: #39B54A;  z-index: 0;  animation-name: button-expand;  animation-duration: 1s;  animation-timing-function: ease-out;  animation-iteration-count: infinite;  opacity: 0;
+}
+@keyframes button-expand {
+    from {
+     transform: scaleX(1) scaleY(1);
+     opacity: 1;
+   }
+     to {
+      transform: scaleX(1.2)
+      scaleY(1.4);    opacity: 0;  }}

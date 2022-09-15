@@ -17,7 +17,11 @@ const Navbar = () => {
                 <a className={`${styles.navLink} nav-link`} href="/">Contact us</a>
                 <div className={`${styles.navLink} nav-link`} href="/">|</div>
                 <a className={`${styles.navLink} nav-link`} href="/">Login & Signup</a>
+                <div className='absolute'>
+                <button className={`btn ${styles.animate}`}>Live Deals</button>
                 <button className={`btn ${styles.btnCustom}`} href="/">Live Deals</button>
+                
+                </div>
                 
             </ul>
         </div>

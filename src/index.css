@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .app{
     padding:0px 68px 0px 68px;
+    font-family: 'Poppins';
 
 }
 
@@ -32,7 +35,7 @@
 /* cards */
 
 .card{
-    height: 30vw;
+    height: 500px;
     width: 28vw;
     margin-bottom: 37px;
 }
@@ -44,7 +47,7 @@
     font-size: 18px;
     line-height: 27px;
     color: #08090A;
-    padding-top: 45px;
+    padding-top: 30px;
 }
 
 .card .text{
@@ -116,6 +119,7 @@ line-height: 24px;
 color: #49516A;
 margin:auto 20px;
 border: #DBDCE1 ;
+margin: 24px auto 24px 18px;
 padding: 0px 50px 0px 16px;
 border-left-width: 2px;
 border-left-style: solid;
