@@ -1,0 +1,25 @@
+
+/* navbar */
+
+.navbarBrand{
+    margin-top: 16px;
+}
+
+.navLink,.navLink:disabled{
+    padding-right: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6D747A;
+}
+
+.btnCustom{
+    margin-left: 8 px;
+    background-color: #39B54A;
+    color: #E9EBF4;
+    padding: 16px 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    
+}

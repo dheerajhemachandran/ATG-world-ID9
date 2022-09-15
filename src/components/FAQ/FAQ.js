@@ -1,9 +1,9 @@
 import React from 'react'
-
+import styles from './FAQ.module.css'
 const FAQ = () => {
   return (
-    <div className='faq'>
-      <div className="d-flex title justify-content-center">
+    <div className={styles.faq}>
+      <div className={`d-flex ${styles.title} justify-content-center`}>
       Frequently Asked Questions
       </div>
 

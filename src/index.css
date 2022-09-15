@@ -26,114 +26,18 @@
 
 }
 
-/* navbar */
-
-.navbar-brand{
-    margin-top: 16px;
-}
-
-.nav-link,.nav-link:disabled{
-    padding-right: 32px;
-    font-size: 16px;
-    font-weight: 500;
-    color: #6D747A;
-}
-
-.nav .btn-custom{
-    margin-left: 8 px;
-    background-color: #39B54A;
-    color: #E9EBF4;
-    padding: 16px 24px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 16px;
-    
-}
-
-/* heading */
-
-.heading{
-    padding:68px 0 24px 0;
-}
-
-.heading .title{
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 56px;
-    color: #000000;
-}
-
-.heading .sub-title{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 26px;
-    color: #6D747A;
-}
-
-/* options */
-
-.options{
-    width: 756px;
-    height: 88px;
-    background: #F8F9FA;
-    border-radius: 12px 12px 0px 0px;
-    padding: 24px 0px 24px 24px;
-    gap: 16px;
-}
-
-#search{
-    height: 40px;
-    width: 272px;
-    border-radius: 20px;
-}
-
-.search-icon{
-    position: relative;
-    top: 12px;
-    left: 43px;
-}
-
-.options .btn{
-    background-color: white;
-    padding: 7px 24px 7px 24px;
-}
 
 
-/* live */
-
-.livedeals{
-    padding-top: 32px;
-}
-.livedeals .title{
-
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 40px;
-    color: #000000;
-
-}
-
-.livedeals .sub-title{
-
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 26px;
-    color: #6D747A;
-    padding-bottom: 24px;
-
-}
 
 /* cards */
 
 .card{
-    height: 500px;
-    width: 480px;
+    height: 30vw;
+    width: 28vw;
     margin-bottom: 37px;
 }
 
-.card-title{
+.card .title{
 
     font-style: normal;
     font-weight: bolder;
@@ -143,7 +47,7 @@
     padding-top: 45px;
 }
 
-.card-text{
+.card .text{
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -156,9 +60,9 @@
 
 height: 28px;
 padding: 4px 8px;
-margin-right: 8px;
+margin: auto 8px 1vw auto;
 font-style: normal;
-font-weight: 900;
+font-weight: 600;
 font-size: 13px;
 text-transform: uppercase;
 color: #283891;
@@ -168,8 +72,8 @@ border-radius: 4px;
 
 .card .profile{
     position: absolute;
-    top: 208px;
-    left: 20px;
+    top: 12vw;
+    left: 1vw;
 }
 
 .card .closed{
@@ -189,24 +93,32 @@ border-radius: 4px;
     color: #08090A;
 }
 
-/* faq */
 
-.faq{
-    padding-top: 120px;
-}
-.faq .title{
-
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 130%;
-    text-align: center;
-    letter-spacing: -0.01em;
-    color: #283891;
-}
 
 .accordion{
     padding:50px 360px 70px 360px;
+}
+
+.accordion-button{
+
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+}
+
+.accordion-body{
+    
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #49516A;
+margin:auto 20px;
+border: #DBDCE1 ;
+padding: 0px 50px 0px 16px;
+border-left-width: 2px;
+border-left-style: solid;
 }
 
 .accordion-button:active,.accordion-button:focus{

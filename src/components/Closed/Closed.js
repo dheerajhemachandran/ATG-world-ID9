@@ -1,7 +1,8 @@
 import React from 'react'
-import Deals from './subcomponents/Deals'
-import cover from './utils/Cover.svg'
-import profile from './utils/Profile.svg'
+import styles from './Closed.module.css'
+import Deals from '../Deals'
+import cover from '../../assets/Cover.svg'
+import profile from '../../assets/Profile.svg'
 
 const Closed = () => {
   const deals=[{
@@ -49,9 +50,9 @@ const Closed = () => {
   },]
   return (
   
-    <div className='livedeals'>
-      <div className="title">Closed Deals</div>
-      <div className="sub-title">30 Opportunities.</div>
+    <div className={styles.livedeals}>
+      <div className={styles.title}>Closed Deals</div>
+      <div className={styles.sub}>30 Opportunities.</div>
 
       <div className="row">
 

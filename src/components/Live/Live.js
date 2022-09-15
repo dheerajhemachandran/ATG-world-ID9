@@ -1,7 +1,8 @@
 import React from 'react'
-import Deals from './subcomponents/Deals'
-import cover from './utils/Cover.svg'
-import profile from './utils/Profile.svg'
+import styles from './Live.module.css'
+import Deals from '../Deals'
+import cover from '../../assets/Cover.svg'
+import profile from '../../assets/Profile.svg'
 
 const Live = () => {
   const deals=[{
@@ -48,9 +49,9 @@ const Live = () => {
     btn2:"HEALTH"
   },]
   return (
-    <div className='livedeals'>
-      <div className="title">Live Deals</div>
-      <div className="sub-title">130 Opportunities.</div>
+    <div className={styles.livedeals}>
+      <div className={styles.title}>Live Deals</div>
+      <div className={styles.sub}>130 Opportunities</div>
 
       <div className="row">
 
