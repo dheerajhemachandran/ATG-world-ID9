@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ATG-world-ID9/static/css/main.0c24c3d8.css",
+    "main.css": "/ATG-world-ID9/static/css/main.46d662fd.css",
     "main.js": "/ATG-world-ID9/static/js/main.9bdbb35b.js",
     "static/media/Cover.svg": "/ATG-world-ID9/static/media/Cover.211c8e7510aac69b74ee7cf45da077ce.svg",
     "static/media/Profile.svg": "/ATG-world-ID9/static/media/Profile.06ffa8459a20f6a4db825d4d51b0d4ea.svg",
@@ -8,11 +8,11 @@
     "index.html": "/ATG-world-ID9/index.html",
     "static/media/dropdown.svg": "/ATG-world-ID9/static/media/dropdown.76db03998494edc6ff5d9e36ebe6995b.svg",
     "static/media/search.svg": "/ATG-world-ID9/static/media/search.62909ae13662e41154eda004b0f3d2a5.svg",
-    "main.0c24c3d8.css.map": "/ATG-world-ID9/static/css/main.0c24c3d8.css.map",
+    "main.46d662fd.css.map": "/ATG-world-ID9/static/css/main.46d662fd.css.map",
     "main.9bdbb35b.js.map": "/ATG-world-ID9/static/js/main.9bdbb35b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c24c3d8.css",
+    "static/css/main.46d662fd.css",
     "static/js/main.9bdbb35b.js"
   ]
 }
