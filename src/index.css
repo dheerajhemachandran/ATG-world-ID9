@@ -133,6 +133,15 @@ border-left-style: solid;
     box-shadow: none;
 }
 
+.accordion-button::after{
+    color: #49516A;
+}
+
+
+.navbar-nav{
+    position:relative;
+    left: 128px;
+}
 
 
 
