@@ -14,28 +14,45 @@
 
 .btnCustom{
     margin-left: 8 px;
-    background-color: #39B54A;
     color: #E9EBF4;
+    outline:none;
+
     position: relative;
-    left: -128px;
+    left:-128px;
     padding: 16px 24px;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
-    
+    animation-name: text-move;  animation-duration: 1s;  animation-timing-function: ease-out;  animation-iteration-count: infinite;
     
 }
 
 .animate{
     position: relative;
-    padding: 16px 24px;  background-color: #39B54A;  z-index: 0;  animation-name: button-expand;  animation-duration: 1s;  animation-timing-function: ease-out;  animation-iteration-count: infinite;  opacity: 0;
+    color: #39B54A;
+    padding: 16px 24px;  background-color: #39B54A;  z-index: 0;  animation-name: button-move;  animation-duration: 1s;  animation-timing-function: ease-out;  animation-iteration-count: infinite;
 }
-@keyframes button-expand {
-    from {
-     transform: scaleX(1) scaleY(1);
-     opacity: 1;
+
+@keyframes button-move {
+    10% {
+        transform:translateX(5px);
+     
    }
-     to {
-      transform: scaleX(1.2)
-      scaleY(1.4);    opacity: 0;  }}
+     20% {
+      transform: translateX(-5px) }
+    30%{
+        transform:translateX(0px);
+    }}
+
+
+@keyframes text-move {
+    10% {
+        transform:translateX(2px);
+     
+   }
+     20% {
+      transform: translateX(-2px) }
+    30%{
+        transform:translateX(0px);
+    }}

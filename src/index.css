@@ -35,7 +35,7 @@
 /* cards */
 
 .card{
-    height: 500px;
+    height: 434px;
     width: 28vw;
     margin-bottom: 37px;
 }
@@ -56,7 +56,7 @@
     font-size: 13px;
     line-height: 20px;
     color: #6D747A;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 }
 
 .card .btn-custom{
@@ -99,7 +99,7 @@ border-radius: 4px;
 
 
 .accordion{
-    padding:50px 360px 70px 360px;
+    padding:50px 25vw 70px 25vw;
 }
 
 .accordion-button{
@@ -108,6 +108,8 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 27px;
+
+color: #49516A;
 }
 
 .accordion-body{
