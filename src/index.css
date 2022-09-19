@@ -35,8 +35,8 @@
 /* cards */
 
 .card{
-    height: 434px;
-    width: 410px;
+    height: 542px;
+    width: 100%;
     margin-bottom: 37px;
 }
 
@@ -75,8 +75,8 @@ border-radius: 4px;
 
 .card .profile{
     position: absolute;
-    top: 173px;
-    left: 16px;
+    top: 13vw;
+    left: 20px;
 }
 
 .card .closed{

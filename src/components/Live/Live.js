@@ -53,7 +53,7 @@ const Live = () => {
       <div className={styles.title}>Live Deals</div>
       <div className={styles.sub}>130 Opportunities</div>
 
-      <div className="row">
+      <div className="row gap">
 
           {deals.map((deal)=>
           <Deals deal={deal} closed={false}/>)}
