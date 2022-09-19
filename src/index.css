@@ -35,7 +35,7 @@
 /* cards */
 
 .card{
-    height: 542px;
+    height: 434px;
     width: 100%;
     margin-bottom: 37px;
 }
@@ -75,7 +75,7 @@ border-radius: 4px;
 
 .card .profile{
     position: absolute;
-    top: 13vw;
+    top: 173px;
     left: 20px;
 }
 
@@ -97,7 +97,11 @@ border-radius: 4px;
 }
 
 
-
+.card .card-img-top{
+    height:200px;
+    width:stretch;
+    object-fit: cover;
+}
 .accordion{
     padding:50px 360px 70px 360px;
 }
@@ -139,6 +143,8 @@ border-left-style: solid;
 
     box-shadow: none;
 }
+
+
 
 
 

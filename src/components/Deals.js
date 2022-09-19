@@ -9,7 +9,7 @@ const Deals = ({deal,closed}) => {
       closed
       </div>:
       <></> }
-      <img src={deal.cover} alt="cover" className="card-img-top" />
+      <img src={deal.cover} alt="cover"  className="card-img-top" />
       <img src={deal.profile} className="profile" height="56px" width="56px" alt="" />
       <div className="card-body d-flex flex-column">
         <div className="title">{deal.title}</div>
