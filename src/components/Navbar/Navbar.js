@@ -18,7 +18,7 @@ const Navbar = () => {
                 <div className={`${styles.navLink} nav-link`} href="/">|</div>
                 <a className={`${styles.navLink} nav-link`} href="/">Login & Signup</a>
                 <div className='absolute'>
-                <button className={`btn ${styles.animate}`}>Live Deals</button>
+                <button className={`btn ${styles.animate}`}></button>
                 <button className={`btn ${styles.btnCustom}`} href="/">Live Deals</button>
                 
                 </div>

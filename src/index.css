@@ -36,7 +36,7 @@
 
 .card{
     height: 434px;
-    width: 28vw;
+    width: 410px;
     margin-bottom: 37px;
 }
 
@@ -75,8 +75,8 @@ border-radius: 4px;
 
 .card .profile{
     position: absolute;
-    top: 12vw;
-    left: 1vw;
+    top: 173px;
+    left: 16px;
 }
 
 .card .closed{
@@ -99,7 +99,7 @@ border-radius: 4px;
 
 
 .accordion{
-    padding:50px 25vw 70px 25vw;
+    padding:50px 360px 70px 360px;
 }
 
 .accordion-button{
@@ -142,7 +142,7 @@ border-left-style: solid;
 
 .navbar-nav{
     position:relative;
-    left: 128px;
+    left: 120px;
 }
 
 

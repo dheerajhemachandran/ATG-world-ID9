@@ -32,6 +32,12 @@
 .animate{
     position: relative;
     color: #39B54A;
+    width: 128px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
     padding: 16px 24px;  background-color: #39B54A;  z-index: 0;  animation-name: button-move;  animation-duration: 1s;  animation-timing-function: ease-out;  animation-iteration-count: infinite;
 }
 
