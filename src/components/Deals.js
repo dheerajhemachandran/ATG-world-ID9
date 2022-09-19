@@ -14,7 +14,7 @@ const Deals = ({deal,closed}) => {
       <div className="card-body d-flex flex-column">
         <div className="title">{deal.title}</div>
         <div className="text">{deal.content}</div>
-        <div className=' mt-auto mb-0'>
+        <div className='mt-auto mb-0'>
         <button className='btn  btn-custom align-self-end'>{deal.btn1}</button>
         <button className='btn  btn-custom'>{deal.btn2}</button>
       
