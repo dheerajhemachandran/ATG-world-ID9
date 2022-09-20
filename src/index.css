@@ -144,7 +144,10 @@ border-left-style: solid;
     box-shadow: none;
 }
 
+.accordion-button:focus::after{
+    color: #283891;
 
+}
 
 
 
