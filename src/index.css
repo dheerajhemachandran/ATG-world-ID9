@@ -131,20 +131,17 @@ border-left-width: 2px;
 border-left-style: solid;
 }
 
-.accordion-button:active{
-    background-color: white;
-    color: #283891;
-    box-shadow: none;
-}
+
 
 .accordion-button:focus{
     background-color: white;
     color: #283891;
-
     box-shadow: none;
 }
 
-.accordion-button:focus::after{
+
+
+.accordion-button::after:checked{
     color: #283891;
 
 }
