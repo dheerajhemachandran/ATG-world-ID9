@@ -133,39 +133,20 @@ border-left-style: solid;
 
 
 
-.accordion {
-    padding: 50px 360px 70px 360px;
-}
-
-.accordion-button:focus {
+.accordion-button:focus{
     background-color: white;
-}
-
-.accordion-button {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 27px;
-}
-
-.accordion-button::after {
-    background-image: url("./assets/accordion-arrow.png");
-    background-position-y: 7px;
-}
-
-.accordion-button[aria-expanded="true"]::after {
-    background-image: url("./assets/accordion-arrow.png");
-    color: white;
-}
-
-.accordion-button[aria-expanded="true"] {
     color: #283891;
+    box-shadow: none;
 }
 
-.accordion-body {
-    padding-top: 24px;
-    font-size: 16px;
-    font-weight: 400;
+
+
+.accordion-button::after:checked{
+    color: #283891;
+
 }
+
+
 
 .navbar-nav{
     position:relative;
