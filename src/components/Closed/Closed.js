@@ -60,7 +60,7 @@ const Closed = () => {
           <Deals deal={deal} closed={true}/>)}
       </div>
       <div className="d-flex justify-content-center">
-        <div className="btn btn-view">View more</div>
+        <div className="btn-outline-dark-blue">View more</div>
       </div>
     </div>
   )

@@ -5,6 +5,21 @@
     font-family: 'Poppins';
 
 }
+.btn-outline-dark-blue {
+    padding: 16px 24px;
+    background-color: #fff;
+    border: 1px solid #0F1F78;
+    color: #0F1F78;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.btn-outline-dark-blue:hover {
+    background-color: #0F1F78;
+    color: white;
+    transition: all .3s;
+}
+
 
 .btn-view{
     box-sizing: border-box;
