@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-.app{
-    padding:0px 68px 0px 68px;
-    font-family: 'Poppins';
-
+.app {
+    padding: 0px 68px 0px 68px;
 }
+
 .btn-outline-dark-blue {
-    padding: 16px 24px;
+    padding: 16px 26px;
     background-color: #fff;
     border: 1px solid #0F1F78;
     color: #0F1F78;
@@ -20,87 +17,161 @@
     transition: all .3s;
 }
 
+/* navbar */
 
-.btn-view{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.navbar-brand {
+    margin-top: 16px;
+}
+
+.nav-link,
+.nav-link:disabled {
+    padding-right: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6D747A;
+}
+
+.nav .btn-custom {
+    margin-left: 8 px;
+    background-color: #39B54A;
+    color: #E9EBF4;
     padding: 16px 24px;
-    gap: 10px;
-    width: 128px;
-    height: 48px;
-    background: #FFFFFF;
-    border: 1px solid #0F1F78;
-    border-radius: 8px;
-    
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 16px;
-    text-align: center;
-    color: #0F1F78;
 
 }
 
+/* heading */
+
+.heading {
+    padding: 68px 0 24px 0;
+}
+
+.heading .title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.heading .sub-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #6D747A;
+}
+
+/* options */
+
+.options {
+    width: 756px;
+    height: 88px;
+    background: #F8F9FA;
+    border-radius: 12px 12px 0px 0px;
+    padding: 24px 0px 24px 24px;
+    gap: 16px;
+}
+
+#search {
+    height: 40px;
+    width: 272px;
+    border-radius: 20px;
+}
+
+.search-icon {
+    position: relative;
+    top: 12px;
+    left: 43px;
+}
+
+.options .btn {
+    background-color: white;
+    padding: 7px 24px 7px 24px;
+}
 
 
+/* live */
+
+.livedeals {
+    padding-top: 32px;
+}
+
+.livedeals .title {
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+
+}
+
+.livedeals .sub-title {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #6D747A;
+    padding-bottom: 24px;
+
+}
 
 /* cards */
 
-.card{
-    height: 434px;
-    width: 100%;
+.card {
+    height: 454px;
+    width: 410px;
     margin-bottom: 37px;
 }
 
-.card .title{
+.card-title {
 
     font-style: normal;
-    font-weight: bolder;
+    font-weight: 600;
     font-size: 18px;
     line-height: 27px;
     color: #08090A;
-    padding-top: 30px;
+    padding-top: 45px;
 }
 
-.card .text{
+.card-text {
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
     color: #6D747A;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
 
-.card .btn-custom{
+.card .btn-custom {
 
-height: 28px;
-padding: 4px 8px;
-margin: auto 8px 1vw auto;
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-text-transform: uppercase;
-color: #283891;
-background: #E9EBF4;
-border-radius: 4px;
+    height: 28px;
+    padding: 4px 8px;
+    margin-right: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #283891;
+    background: #E9EBF4;
+    border-radius: 4px;
 }
 
-.card .profile{
+.card .profile {
     position: absolute;
     top: 173px;
-    left: 20px;
+    left: 16px;
 }
 
-.card .closed{
+.card .closed {
     position: absolute;
     width: 88px;
     height: 32px;
     background: #EBEDF0;
     border-radius: 4px;
-    margin-top:17px ;
+    margin-top: 17px;
     margin-left: 16px;
     padding: 4px 12px;
     font-style: normal;
@@ -111,74 +182,121 @@ border-radius: 4px;
     color: #08090A;
 }
 
+/* faq */
 
-.card .card-img-top{
-    height:200px;
-    width:stretch;
-    object-fit: cover;
-}
-.accordion{
-    padding:50px 360px 70px 360px;
+.faq {
+    padding-top: 120px;
 }
 
-.accordion-button{
+.faq .title {
 
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 27px;
-
-color: #49516A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #283891;
 }
 
-.accordion-body{
-    
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #49516A;
-margin:auto 20px;
-border: #DBDCE1 ;
-margin: 24px auto 24px 18px;
-padding: 0px 50px 0px 16px;
-border-left-width: 2px;
-border-left-style: solid;
+.accordion {
+    padding: 50px 360px 70px 360px;
+    --bs-accordion-btn-focus-border-color: none;
+}
+
+hr {
+    margin-right: 16px;
+    height: 34px;
+    width: 3px;
+    background: #dbdce1;
+    margin-top: 9px;
+}
+
+.livedeals .card-body {
+    padding: 12px 16px;
+}
+
+.accordion-body {
+    padding-top: 16px;
 }
 
 
-
-.accordion-button:focus{
+.accordion-button:focus {
     background-color: white;
+    border: 0 !important;
+}
+
+.accordion-button {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    padding-bottom: 8px;
+}
+
+.accordion-button::after {
+    background-image: url("./assets/accordion-arrow.png");
+    background-position-y: 7px;
+    animation-name: accordion;
+    animation-duration: 300ms;
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    background-image: url("./assets/accordion-arrow.png");
+    color: white;
+    transform: rotate(0);
+    animation-name: accordion-expanded;
+    animation-duration: 300ms;
+}
+
+@keyframes accordion-expanded {
+    0% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+@keyframes accordion {
+    0% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.accordion-button[aria-expanded="true"] {
     color: #283891;
-    box-shadow: none;
+    background-color: white;
+    border: 0 !important;
 }
 
-
-
-.accordion-button::after:checked{
-    color: #283891;
-
+.accordion-body {
+    padding-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
+.footer {
 
-
-.navbar-nav{
-    position:relative;
-    left: 120px;
+    height: 220px;
+    background: #283891;
+    margin: 0px;
+    padding: 0%;
 }
 
-
-
-.footer{
-
-height: 220px;
-background: #283891;
-margin: 0px;
-padding: 0%;
-}
-
-.footer .text{
+.footer .text {
     padding: 115px 0px 89px 0px;
     color: white;
     display: flex;
